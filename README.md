@@ -10,7 +10,7 @@ En el navegador web de su preferencia abrimos el archivo llamado `figuras.html`.
 
 **Jhonatan Mideros**
 
-- 💻 [Profile](https://github.com/Rohit19060 'Jhonatan Mideros')
+- 💻 [Profile](https://github.com/jonmid 'Jhonatan Mideros')
 
 - 📬 [Email](mailto:jonmid.mideros@gmail.com?subject=Hi%20from%20Project%20GitHub 'Hi!')
 
