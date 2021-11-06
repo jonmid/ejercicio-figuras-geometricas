@@ -79,12 +79,14 @@ function calcularPerimetroCuadrado() {
   const value = input.value;
 
   const perimetro = perimetroCuadrado(value);
-  alert(perimetro);
+  const resultElement = document.getElementById('result-cuadrado');
+  resultElement.innerHTML = `<div class="result-container"><p>PERÍMETRO = <span>${perimetro}</span></p></div>`;
 }
 function calcularAreaCuadrado() {
   const input = document.getElementById('InputCuadrado');
   const value = input.value;
 
   const area = areaCuadrado(value);
-  alert(area);
+  const resultElement = document.getElementById('result-cuadrado');
+  resultElement.innerHTML = `<div class="result-container"><p>ÁREA = <span>${area}</span></p></div>`;
 }

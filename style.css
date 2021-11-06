@@ -1,0 +1,140 @@
+:root {
+  --black: #1f2937;
+  --white: #ffffff;
+  --background-index: #f3f4f6;
+  --orange-dark: #d97706;
+  --orange-light: #fcd34d;
+  --blue-dark: #2563eb;
+  --blue-light: #93c5fd;
+  --purple-dark: #7c3aed;
+  --purple-light: #c4b5fd;
+  --aqua-text-dark: #2bb2b1;
+  --gray-text-dark: #9ca3af;
+  --sm: 14px;
+  --md: 16px;
+  --lg: 18px;
+}
+
+::placeholder {
+  font-size: 24px;
+  color: #e5e7eb;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-container {
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--background-index);
+}
+
+.card-container {
+  width: 70%;
+  height: auto;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: var(--white);
+  -webkit-box-shadow: 0px 0px 20px 20px rgba(156, 163, 175, 0.1);
+  -moz-box-shadow: 0px 0px 20px 20px rgba(156, 163, 175, 0.1);
+  box-shadow: 0px 0px 20px 20px rgba(156, 163, 175, 0.1);
+}
+
+/* START: Estilos para header */
+header {
+  margin: 0;
+  padding: 32px 28px 32px 28px;
+}
+
+header h3 {
+  margin: 0;
+  color: var(--aqua-text-dark);
+}
+
+header p {
+  margin: 16px 0 0 0;
+  color: var(--gray-text-dark);
+}
+/* END: Estilos para header */
+
+/* START: Estilos contenedor formularios */
+.forms-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.forms-container form:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  padding: 28px 16px 28px 16px;
+  background-color: var(--orange-light);
+}
+
+.forms-container form:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  padding: 28px 16px 28px 16px;
+  background-color: var(--blue-light);
+}
+
+.forms-container form:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  padding: 28px 16px 28px 16px;
+  background-color: var(--purple-light);
+}
+/* END: Estilos contenedor formularios */
+
+/* START: Estilos formulario cuadrado */
+.form-cuadrado label {
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: 900;
+  color: var(--orange-dark);
+}
+
+.form-cuadrado input {
+  box-sizing: border-box;
+  padding: 0.25em 0.5em;
+  text-align: center;
+  font-size: 32px;
+  color: var(--orange-dark);
+  background-color: var(--white);
+  border: 2px solid var(--orange-dark);
+  border-radius: 8px;
+  outline: none;
+}
+
+.form-cuadrado .button-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+  margin-top: 16px;
+}
+
+.form-cuadrado .result-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 16px 0 16px 0;
+  border-radius: 16px;
+  border: 3px dotted var(--orange-dark);
+}
+
+.form-cuadrado .result-container p {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--orange-dark);
+}
+
+.form-cuadrado .result-container span {
+  margin: 0;
+  color: var(--white);
+}
+/* END: Estilos formulario cuadrado */
